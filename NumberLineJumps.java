@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class NumberLineJumps {
 
 	public static void main(String[] args) {
-		int x1; // ù��° Ļ�ŷ� ��ġ
-		int v1; // ù��° Ļ�ŷ� �ӵ�
-		int x2; // �ι�° Ļ�ŷ� ��ġ
-		int v2; // �ι�° Ļ�ŷ� �ӵ�
+		int x1; // 첫번째 캥거루 위치
+		int v1; // 첫번째 캥거루 속도
+		int x2; // 두번째 캥거루 위치
+		int v2; // 두번째 캥거루 속도
 		int[] arr = new int[2*2];
 		Scanner in = new Scanner(System.in);
-		// ���� �ܺηκ��� �Է¹޴��۾�
+		// 값을 외부로부터 입력받는작업
 		for(int i=0; i<arr.length;i++) {
 			arr[i] = in.nextInt();
 		} 
@@ -32,8 +32,6 @@ public class NumberLineJumps {
 		}else {
 			System.out.println("NO");
 		}
-		
-		
-		
+				
 	}
 }
