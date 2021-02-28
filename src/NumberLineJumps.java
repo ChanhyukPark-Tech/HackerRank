@@ -33,7 +33,7 @@ public class NumberLineJumps {
 			System.out.println("NO");
 		}
 		
-		
+		in.close();
 		
 	}
 }
